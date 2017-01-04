@@ -18,3 +18,4 @@ for line in db:
 	tertiary=open(pwd+"/"+str(increment)+".html", "w")
 	tertiary.write("<head><title>"+line_pieces[0]+"</title><link rel='stylesheet' href='main.css'><link href='https://fonts.googleapis.com/css?family=Ubuntu' rel='stylesheet'></head>")
 	tertiary.write("<iframe width='560' height='315' src='https://www.youtube.com/embed/videoseries?list="+line_pieces[2]+"' frameborder='0' allowfullscreen></iframe>")
+	index.write("<p><a href='file://"+pwd+"/"+str(increment)+".html'>"+name+"</a></p>")
