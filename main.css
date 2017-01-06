@@ -9,3 +9,6 @@ p {
   color: white;
   font-family: 'Ubuntu', sans-serif;
 }
+::-webkit-scrollbar { 
+	display: none; 
+}
