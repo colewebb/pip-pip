@@ -9,6 +9,18 @@ p {
   color: white;
   font-family: 'Ubuntu', sans-serif;
 }
-::-webkit-scrollbar { 
-	display: none; 
+::-webkit-scrollbar {
+	display: none;
+}
+a {
+  font-family: 'Ubuntu', sans-serif;
+}
+a:link {
+  color: white;
+}
+a:visited {
+  color: white;
+}
+a:hover {
+  color: lightgrey;
 }
